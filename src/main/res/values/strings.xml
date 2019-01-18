@@ -513,11 +513,6 @@
     <string name="share_privilege_can_edit_change">can change</string>
     <string name="share_privilege_can_edit_delete">can delete</string>
 
-    <string name="action_retry_uploads">Retry failed uploads</string>
-    <string name="action_clear_failed_uploads">Clear failed uploads</string>
-    <string name="action_clear_successful_uploads">Clear successful uploads</string>
-    <string name="action_force_rescan">Force rescan</string>
-
     <string name="action_switch_grid_view">Grid view</string>
     <string name="action_switch_list_view">List view</string>
 
@@ -849,4 +844,5 @@
     <string name="error_starting_direct_camera_upload">Error starting camera</string>
     <string name="uploader_upload_files_behaviour_not_writable">source folder is read-only; file will only be uploaded</string>
     <string name="auto_upload_file_behaviour_kept_in_folder">kept in original folder, as it is readonly</string>
+    <string name="delete_entries">Delete entries</string>
 </resources>
