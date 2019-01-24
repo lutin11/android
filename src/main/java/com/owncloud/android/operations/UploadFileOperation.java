@@ -595,7 +595,7 @@ public class UploadFileOperation extends SyncOperation {
             }
 
             for (OnDatatransferProgressListener mDataTransferListener : mDataTransferListeners) {
-                mUploadOperation.addDatatransferProgressListener(mDataTransferListener);
+                mUploadOperation.addDataTransferProgressListener(mDataTransferListener);
             }
 
             if (mCancellationRequested.get()) {
@@ -843,7 +843,7 @@ public class UploadFileOperation extends SyncOperation {
             }
 
             for (OnDatatransferProgressListener mDataTransferListener : mDataTransferListeners) {
-                mUploadOperation.addDatatransferProgressListener(mDataTransferListener);
+                mUploadOperation.addDataTransferProgressListener(mDataTransferListener);
             }
 
             if (mCancellationRequested.get()) {
